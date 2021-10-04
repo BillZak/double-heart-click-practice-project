@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body{
+    background: rgb(139, 220, 226);
     font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 0;
