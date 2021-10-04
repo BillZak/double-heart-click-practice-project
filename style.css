@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h3{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+small{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.loveMe{
+    height: 440px;
+    width: 300px;
+    background: url('https://images.unsplash.com/photo-1618678900888-da259539f5ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJlYXV0aWZ1bCUyMGFuaW1hbHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') 
+    no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(77, 75, 75, 0.507), 0 10px 10px rgba(75, 73, 73, 0.493);
+}
+
+.loveMe .fa-heart{
+    position: absolute;
+    animation: grow 0.6s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+
+@keyframes grow {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
+}
