@@ -32,7 +32,7 @@ small{
     cursor: pointer;
     max-width: 100%;
     position: relative;
-    box-shadow: 0 14px 28px rgba(77, 75, 75, 0.507), 0 10px 10px rgba(75, 73, 73, 0.493);
+    box-shadow: 0 14px 28px rgba(77, 76, 76, 0.507), 0 10px 10px rgba(75, 73, 73, 0.493);
 }
 
 .loveMe .fa-heart{
